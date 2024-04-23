@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <style>
+       .div
+       {
+           background-image:url("architect.jpg");
+           width: 100%;
+           Height:500px;
+           background-repeat: no-repeat;
+           display:flex;
+          
+
+           background-size:600px 800px;
+           justify-content: center;
+           align-items: center;
+       }
+        
+        .div span{
+            background-color: black;
+            color: white;
+        }
+.grid-images
+          {display:grid;
+          grid-template-columns: 150px 150px 150px 150px;
+          grid-template-rows:300px 300px ;
+          gap:10px;
+          height:800px;
+          width:100%;
+          background-color:aqua;}
+        
+  .grid-images .img1{background-image:url(house2.jpg);
+                     background-size:150px 300px;}
+
+            .img1 span{background-color:black;
+                       color:white;}    
+                       
+   .grid-images .img2{background-image:url(house3.jpg);
+                      background-size:150px 300px;}  
+                      
+            .img2 span{background-color: black;
+                         color:white}          
+    
+
+    .grid-images .img3{background-image:url(house4.jpg);
+                    background-size:150px 300px;}
+
+              .img3 span{background-color:black;
+                           color:white;}   
+                           
+    .grid-images .img4{background-image:url("house5.jpg");
+                       background-size:150px 300px;}  
+                       
+                .img4 span{background-color:black;
+                            color:white;}  
+
+         .grid-images .img5{background-image:url("house2.jpg");
+                        background-size:150px 300px;} 
+                        
+                .img5 span{background-color: black;
+                              color:white;} 
+                              
+           .grid-images .img6{background-image:url("house3.jpg");
+                              background-size:150px 300px;}  
+                              
+                    .img6 span{background-color: black;
+                                color:white;}      
+                            
+              .grid-images .img7{background-image:url("house4.jpg");
+                                 background-size:150px 300px;} 
+                                 
+                     .img7 span{background-color: black;
+                                    color:white;}    
+                                    
+               .grid-images .img8{background-image:url("house5.jpg");
+                                   background-size: 150px 300px;}  
+                                   
+                       .img8 span{background-color: black;
+                                     color:white;}            
+                            
+                            
+
+    
+
+
+
+
+
+    </style>
+    </head>
+    <body>
+    <div class="div">
+   <span>BR Architects</span>
+    </div> 
+    <div class="grid-images">
+    <div class="img1"><span>Summer House</span></div>
+    <div class="img2"><span>Barn House</span></div>
+    <div class="img3"><span>Brick House</span></div>
+    <div class="img4"><span> Renovated</span></div>
+    <div class="img5"><span>Summer House</span></div>
+    <div class="img6"><span>Barn House</span></div>
+    <div class="img7"><span>Brick House</span></div>
+    <div class="img8"><span>Renovated</span></div>
+    </div>
+       
+       
+    </body>
